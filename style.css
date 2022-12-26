@@ -332,19 +332,19 @@ header .user .center{
     animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
   }
   .bar .progress-line.html span{
-    width: 10%;
+    width: 15%;
   }
   .bar .progress-line.css span{
-    width: 60%;
+    width: 20%;
   }
-  .bar .progress-line.jquery span{
-    width: 85%;
+  .bar .progress-line.calligraphy span{
+    width: 80%;
   }
-  .bar .progress-line.python span{
-    width: 50%;
+  .bar .progress-line.Webdesign span{
+    width: 22%;
   }
-  .bar .progress-line.mysql span{
-    width: 75%;
+  .bar .progress-line.drawing span{
+    width: 90%;
   }
   
   .progress-line span::before{
@@ -373,19 +373,19 @@ header .user .center{
   }
  
   .progress-line.html span::after{
-    content: "10%";
+    content: "15%";
   }
-  .progress-line.css span::after{
-    content: "60%";
+  .progress-line.calligraphy span::after{
+    content: "80%";
   }
   .progress-line.jquery span::after{
     content: "85%";
   }
-  .progress-line.python span::after{
-    content: "50%";
+  .progress-line.Webdesign span::after{
+    content: "22%";
   }
-  .progress-line.mysql span::after{
-    content: "75%";
+  .progress-line.drawing span::after{
+    content: "90%";
   }
 
 
