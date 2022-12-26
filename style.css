@@ -247,8 +247,7 @@ header .user .center{
 }
 
 .about .row .info h3{
-    font-size: 2rem;
-    color:var(--yellow);
+    font-size: 3rem;
     padding:1rem 0;
     font-weight: normal;
 }
