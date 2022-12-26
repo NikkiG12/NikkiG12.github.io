@@ -51,11 +51,11 @@ section{
     background:#1a1a1a;
     color:#fff;
     cursor: pointer;
-    margin-top: 1rem;
+    margin: auto;
     font-size: 2rem;
     border-radius: 5rem;
-}
 
+}
 .btn i{
     padding:0 .5rem;
     font-size: 1.8rem;
@@ -269,7 +269,10 @@ header .user .center{
 /* end of about styling */
 
 /*skills design */
-
+.skills{
+    background-color: grey;
+    height: 100px;
+}
 .skill-bars .skills{
     font-size: 50px;
     text-align: center;
@@ -280,9 +283,8 @@ header .user .center{
 .skill-bars{
     padding: 10rem;
     padding-top: 0px;
-    margin: 5rem;
-    justify-content: center;
-    background-color: #999;
+    margin-top: 20px;
+   
   }
   .skill-bars .bar{
     margin: 20px 0;
@@ -305,13 +307,13 @@ header .user .center{
     }
   }
   .skill-bars .bar .progress-line{
-    height: 10px;
+    height:25px;
     width: 100%;
     background: #f0f0f0;
     position: relative;
     transform: scaleX(0);
     transform-origin: left;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
                 0 1px rgba(255,255,255,0.8);
     animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
@@ -446,14 +448,13 @@ header .user .center{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     padding:2rem 0;
-    margin-bottom: 0;
+
 }
 
 .portfolio .box-container .box{
-    height: 23rem;
-    width:49rem;
+    height: 35rem;
+    width:35rem;
     border-radius: 1rem;
     margin:2rem;
     overflow: hidden;
@@ -471,6 +472,13 @@ header .user .center{
 }
 
 /*contact styling*/
+::placeholder{
+    color: rgb(194, 190, 190);
+    opacity: 0.5;
+}
+.contact{
+    background-color: grey;
+}
 .contact .row{
     display: flex;
     align-items: center;
