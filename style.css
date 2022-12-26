@@ -472,33 +472,36 @@ header .user .center{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
     font-weight: bold;
-    position: absolute;
+    position: relative;
     text-align: center;
     color: white;
-    top: 50%;
-    left: 50%;
+    margin-left: 173px;
+    margin-bottom: 10px;
+   bottom: 50%;
     transform: translate(-50%, -50%);
 }
 .overlay2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
     font-weight: bold;
-    position: absolute;
+    position: relative;
     text-align: center;
     color: white;
-    top: 50%;
-    left: 50%;
+    margin-left: 173px;
+    margin-bottom: 10px;
+   bottom: 50%;
     transform: translate(-50%, -50%);
 }
 .overlay3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
     font-weight: bold;
-    position: absolute;
+    position: relative;
     text-align: center;
+    margin-left: 173px;
+    margin-bottom: 10px;
+   bottom: 50%;
     color: white;
-    top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
 }
 /*contact styling*/
