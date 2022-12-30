@@ -450,9 +450,18 @@ header .user .center{
 
 }
 
+.portfolio .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    margin-bottom: 0;
+}
+
 .portfolio .box-container .box{
-    height: 35rem;
-    width:35rem;
+    height: 23rem;
+    width:49rem;
     border-radius: 1rem;
     margin:2rem;
     overflow: hidden;
@@ -465,9 +474,10 @@ header .user .center{
     object-fit: cover;
 }
 
-.portfolio .box-container .box:hover{
+.portfolio .box-container .box:hover img{
     transform: scale(1.2);
 }
+
 .overlay{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
